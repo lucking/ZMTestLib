@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ZMTestLib'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ZMTestLib.'
+  s.summary          = '我的测试库 ZMTestLib.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ TODO: Add long description of the pod here.
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lucking' => '1531073749@qq.com' }
-  s.source           = { :git => 'https://github.com/lucking/ZMTestLib.git', :tag => s.version.to_s }
+  s.source           =pod install { :git => 'https://github.com/lucking/ZMTestLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'

@@ -1,0 +1,6 @@
+framework module ZMTestLib {
+  umbrella header "ZMTestLib-umbrella.h"
+
+  export *
+  module * { export * }
+}
